@@ -1,9 +1,6 @@
 name: Build Fifi gerber files
 
-on:
-  push:
-    tags:
-      - 'fifi-v[0-9]+.[0-9]+*'
+on: workflow_dispatch
 
 jobs:
   release-gerber-files:
